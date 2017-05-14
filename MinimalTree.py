@@ -29,4 +29,4 @@ def inOrderTraversal(node):
 #testing
 arr =[1,2,3,4,5,6,7,8,9,10,11,12]
 myroot = minimalTree(arr, 0, 11)
-print inOrderTraversal(myroot)
+inOrderTraversal(myroot)
