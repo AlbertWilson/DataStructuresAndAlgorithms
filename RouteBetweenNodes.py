@@ -1,5 +1,6 @@
 #Route between nodes: Given a directed graph, design an algorithm to find out whether there
 #is a route between nodes
+#Correct!
 import pdb
 
 class Node:
@@ -38,27 +39,22 @@ node8 = Node()
 node9 = Node()
 node10 = Node()
 
-node1 = 1
-node2 = 2
-node3 = 3
-node4 = 4
-node5 = 5
-node6 = 6
-node7 = 7
-node8 = 8
-node9 = 9
-node10 = 10
+node1.val = 1
+node2.val = 2
+node3.val = 3
+node4.val = 4
+node5.val = 5
+node6.val = 6
+node7.val = 7
+node8.val = 8
+node9.val = 9
+node10.val = 10
 
-node1 = 1
-node2 = 2
-node3 = 3
-node4 = 4
-node5 = 5
-node6 = 6
-node7 = 7
-node8 = 8
-node9 = 9
-node10 = 10
+node1.nodes = [node2, node3]
+node1.nodes = [node2, node3]
+node1.nodes = [node2, node3]
+node1.nodes = [node2, node3]
+node1.nodes = [node2, node3]
 
 
 print isRoute (node2, node4)
