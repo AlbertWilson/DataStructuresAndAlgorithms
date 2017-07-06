@@ -27,34 +27,3 @@ def isRoute (node1, node2):
     else:
         return False
 
-#testing
-node1 = Node()
-node2 = Node()
-node3 = Node()
-node4 = Node()
-node5 = Node()
-node6 = Node()
-node7 = Node()
-node8 = Node()
-node9 = Node()
-node10 = Node()
-
-node1.val = 1
-node2.val = 2
-node3.val = 3
-node4.val = 4
-node5.val = 5
-node6.val = 6
-node7.val = 7
-node8.val = 8
-node9.val = 9
-node10.val = 10
-
-node1.nodes = [node2, node3]
-node1.nodes = [node2, node3]
-node1.nodes = [node2, node3]
-node1.nodes = [node2, node3]
-node1.nodes = [node2, node3]
-
-
-print isRoute (node2, node4)
